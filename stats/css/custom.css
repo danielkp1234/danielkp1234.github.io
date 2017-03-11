@@ -1,0 +1,142 @@
+.glow {
+    border: 8px solid rgba(151,151,151,.34);
+}
+
+.glow2:hover {
+    -webkit-box-shadow: 0px 0px 20px 5px #000;
+    box-shadow: 0px 0px 20px 3px #000;
+    transition: all 0.5s ease;
+}
+
+.glow2 {
+    -webkit-box-shadow: 0px -0px 0px #000;
+    box-shadow: 0px -0px 0px #000;
+    transition: all 0.5s ease;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.lead {
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+
+.bgimg {
+    max-height: auto;
+    width: auto;
+    clip: auto;
+    display: block;
+    margin: auto; 
+}
+
+.bg-container {
+    overflow-x: hidden;
+}
+
+.accent {
+    color: #e71919 !important;
+    display: inline;
+}
+
+.caption {
+    font-size: 60px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.captionbody {
+    font-size: 17px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.up {
+    position: absolute;
+    top: 562px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.smallmargin {
+margin-top: 10px
+}
+
+.up2 {
+    position: relative;
+    bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 20px;
+    color: #fff;
+}
+
+.productbox {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px  #999;
+    -moz-box-shadow: 0 8px 6px -6px  #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.producttitle {
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+.productprice {
+    border-top: 1px solid #dadada;
+    padding-top: 5px;
+}
+
+.pricetext {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/* GENERAL ADJUSTMENTS */
+body {
+    color: #5a5a5a;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.marketing {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
